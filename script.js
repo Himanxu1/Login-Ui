@@ -17,3 +17,7 @@ function onSignIn(googleUser) {
       $('.data').css("display","none");
     });
   }
+
+  FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+});
