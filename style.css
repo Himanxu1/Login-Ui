@@ -4,9 +4,38 @@
 
 .g-signin2{
     position: absolute;
-    top: 50%;
+    top: 87%;
     left: 50%;
     margin-top: -50px;
     margin-left: -50px;
     
+}
+.fb-login-button{
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    margin-top: -50px;
+    margin-left: -40px;
+}
+
+
+.container{
+    background-color: aquamarine;
+    width: 350px;
+    height: 350px;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 30px;
+    
+}
+
+.head{
+    background-color: rgb(101, 243, 212);
+    text-align: center;
+    height: 60px;
+}
+.btn {
+text-align: center;
+margin-left: 100px;
+/* margin-top: 300px; */
 }
